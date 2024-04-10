@@ -1,0 +1,55 @@
+student@348-37 MINGW64 ~/Desktop/lab (master)
+$ git config --global user.name "powersamudra"
+
+student@348-37 MINGW64 ~/Desktop/lab (master)
+$ git config --global user.email powersamudra@gmail.com
+
+student@348-37 MINGW64 ~/Desktop/lab (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/student/Desktop/lab/.git/
+
+student@348-37 MINGW64 ~/Desktop/lab (master)
+$ git add azaz.txt
+
+student@348-37 MINGW64 ~/Desktop/lab (master)
+$ git commit -m "paragraph adde99d"
+[master 73e9ba7] paragraph adde99d
+ 1 file changed, 1 insertion(+)
+ create mode 100644 azaz.txt
+
+student@348-37 MINGW64 ~/Desktop/lab (master)
+$ git remote set-url origin https://github.com/powersamudra/azaz.git
+error: No such remote 'origin'
+
+student@348-37 MINGW64 ~/Desktop/lab (master)
+$ git remote set-url origin https://github.com/powersamudra/azaz.git
+error: No such remote 'origin'
+
+student@348-37 MINGW64 ~/Desktop/lab (master)
+$ git remote set-url origin https://github.com/powersamudra/azaz.git
+error: No such remote 'origin'
+
+student@348-37 MINGW64 ~/Desktop/lab (master)
+$ git remote set-url main https://github.com/powersamudra/azaz.git
+error: No such remote 'main'
+
+student@348-37 MINGW64 ~/Desktop/lab (master)
+$ git branch -M main
+
+student@348-37 MINGW64 ~/Desktop/lab (main)
+$ git remote add origin https://github.com/powersamudra/aqaq.git
+
+student@348-37 MINGW64 ~/Desktop/lab (main)
+$ git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 432 bytes | 432.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/powersamudra/aqaq.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+student@348-37 MINGW64 ~/Desktop/lab (main)
+$ ~
